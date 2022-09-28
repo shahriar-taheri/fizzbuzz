@@ -12,10 +12,10 @@ Please follow the instructions for each task.
 
 Execution:
 - Create a conda environment using following command:
-  conda create -n <select a name for your environment> python=3.9
+  conda create -n eda_test python=3.8
 
 - activate your env using:
-  conda activate <name of your environment>
+  conda activate eda_test
 - install ipykernal package using command:
   pip install ipykernel
 
