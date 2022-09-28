@@ -11,6 +11,13 @@ Please follow the instructions for each task.
 - Model is used to classify an image of the COCO 2017 dataset into one of the 1,000 ImageNet classes.
 
 Execution:
+- Create a conda environment using following command:
+  conda create -n eda_test python=3.8
+
+- activate your env using:
+  conda activate eda_test
+- install ipykernal package using command:
+  pip install ipykernel
 
 - Direct to folder /MDD and open jupyter notebook "image_classification.ipynb".
 - Make sure your Linux-64 supports docker, docker-compose, and curl command.
