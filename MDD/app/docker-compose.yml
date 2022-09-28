@@ -3,16 +3,16 @@ version : "3.7"
 services:
 
   app:
-    build: ./app
+    build: ./
     container_name: deep-learning-production
     restart: always
     volumes:
-      - ./app:/app
+      - ./:/app
     expose:
       - 5000
 
   nginx:
-    build: ./nginx
+    build: ../nginx
     container_name: nginx
     restart: always
     ports:
