@@ -24,8 +24,8 @@ Execution:
 - Check the terminal path from your application(e.g., jupyter notebook, vscode) to make sure your
   working directory is /MDD/app.
 - Execute all the cells in "image_classification.ipynb" file one by one. This notebook will create
-  docker and containers for nginx and python application and using a CURL request process your image
-  and return the name of detected classes.
+  docker and containers for nginx and python application.
+- To send a request and get response from python application, open "send_request.ipynb" file and run cells one by one. This file uses a CURL request to process your image and return the name of detected classes.
 - I have chosen an image classifier since it is relevant to my current role. Among image classifier,
   ResNet (Residual Network) is a convolutional neural network that democratized the concepts of residual learning and skip connections. This enables to train much deeper models. Also, it is trained on a million images of 1000 categories from the ImageNet database. Supporting 1000 classes increase the chance of getting a closer class detection to the real category of object.
 
